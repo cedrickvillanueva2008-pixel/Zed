@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Free Image to Music Generator</title>
+         <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+         <h1>Upload an Image to Generate Music</h1>
+         <input type="file" id="imageInput" accept="image/*">
+         <button id="generateBtn">Generate Music</button>
+         <div id="result">
+             <p id="analysis"></p>
+             <audio id="musicPlayer" controls style="display:none;"></audio>
+         </div>
+         <script src="script.js"></script>
+     </body>
+     </html>
+     
